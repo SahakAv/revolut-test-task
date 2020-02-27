@@ -8,7 +8,9 @@ Get accounts by id (GET `/api/account?id={id}`)
 Create account (POST `/api/account`) and get created account in response
 
 Get all transactions (GET `/api/transaction`)
+
 Get transactions by id (GET `/api/transaction?id={id}`)
+
 Create transaction between  (POST `/api/transaction`) two accounts 
 Body example
  ` {
