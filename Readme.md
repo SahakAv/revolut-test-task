@@ -12,6 +12,7 @@ Get all transactions (GET `/api/transaction`)
 Get transactions by id (GET `/api/transaction?id={id}`)
 
 Create transaction between  (POST `/api/transaction`) two accounts 
+
 Body example
  ` {
         "fromId": "7d81494c-efe2-443f-826e-aa5c8ed0b656",
