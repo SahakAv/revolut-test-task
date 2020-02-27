@@ -153,7 +153,6 @@ class TransactionResourceIntegrationTest {
             badRequest,
             handler = Handler {
                 val message = it.body().toString()
-                print(message)
                 assert(message.contains("Sender balance is not enough for performing this operation"))
                 context.completeNow()
             })
